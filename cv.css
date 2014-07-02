@@ -1,0 +1,167 @@
+html * {
+    font-family: "Exo 2.0";
+    font-size:  9pt;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Exo 2.0 Light";
+    font-weight: normal;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    margin: 1cm auto;
+    border: 1pt solid #58595b;
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2cm;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: none;
+        width: 100%;
+        height: 100%;
+        padding: 0cm;
+    }
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left-column {
+    width: 25%;
+    line-height: 0.7cm;
+    font-family: "Exo 2.0 Light";
+    font-size:  12pt;
+    text-transform: uppercase;
+    color: #dd504d;
+    padding: 0;
+    vertical-align: top;
+}
+
+.left-column span {
+    margin-right: 12pt;
+}
+
+.right-column {
+    padding: 0;
+    vertical-align: top;
+}
+
+.delimiter {
+    height:  32pt;
+    vertical-align: middle;
+}
+
+.delimiter hr {
+    color:  #58595b;
+    border-style: dashed;
+    border-width: 1pt 0 0 0;
+    
+}
+
+.highlighted {
+    color: #dd504d;
+}
+
+#contact div {
+    padding-left: 16pt;
+    background-size: auto 12pt;
+    background-repeat: no-repeat;
+    line-height: 12pt;
+    height: 12pt;
+    display: inline-block;
+    margin: 0 16pt 0 0; 
+}
+
+#mail {
+    background-image: url('img/arroba4.svg');
+}
+
+#location {
+    background-image: url('img/pins9.svg');
+}
+
+#phone {
+    background-image: url('img/phone64.svg');
+}
+
+#photo {
+    height: 4cm;
+    width: 4cm;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+#name {
+    margin: 12pt 0 0 0;
+    padding: 0;
+    font-size: 28pt;
+}
+
+#title {
+    margin: 0 0 12pt 0;
+    padding: 0;
+    font-size: 12pt;
+}
+
+#numbers td {
+    padding:  0 3pt 0 3pt;
+    text-align: center;
+    font-size: 10pt;
+    color: #58595b;
+    width: 25%;
+}
+
+.number {
+    border: 2pt solid #000; 
+    border-radius: 50%;
+    color: #000;
+    height: 1.8cm; 
+    width: 1.8cm; 
+    text-align: center; 
+    line-height: 1.8cm; 
+    font-size: 18pt;
+    margin: 0 auto 5pt auto;
+}
+
+.right-column .title {
+    font-family: "Exo 2.0 Medium";
+    font-size: 10pt;
+}
+
+.right-column .period {
+    font-family:  "Exo 2.0 Light";
+    font-size: 10pt;
+    float: right;
+    color: #dd504d;
+}
+
+.right-column .description, .tags {
+    margin: 2pt 0 2pt 0;
+}
+
+.tags {
+   padding: 0 0 0 14pt;
+    background-size: 12pt 12pt;
+    background-repeat: no-repeat;
+    height: 12pt;
+    line-height: 12pt;
+    background-image: url('img/label14.svg');
+}
+
+.tags li {
+     display: inline-block;
+     margin-left: 4pt;   
+     border-bottom:1pt solid ;
+}
