@@ -14,10 +14,10 @@ body {
 }
 
 .page {
-    margin: 1cm auto;
     border: 1pt solid #58595b;
-    width: 21cm;
+    margin: 1cm auto;
     height: 29.7cm;
+    width: 21cm;
     padding: 2cm;
 }
 
@@ -152,10 +152,9 @@ body {
 }
 
 .tags {
-   padding: 0 0 0 14pt;
+    padding: 0 0 0 14pt;
     background-size: 12pt 12pt;
     background-repeat: no-repeat;
-    height: 12pt;
     line-height: 12pt;
     background-image: url('img/label14.svg');
 }
@@ -163,5 +162,9 @@ body {
 .tags li {
      display: inline-block;
      margin-left: 4pt;   
-     border-bottom:1pt solid ;
+}
+
+.tags li::after
+{ 
+    content:";";
 }
