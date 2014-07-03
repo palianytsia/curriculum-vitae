@@ -51,27 +51,38 @@ body {
 .clouds {
     position: relative;
     width: 100%;
-    height: 6cm;
+    height: 5.5cm;
 }
 
 .skills-cloud {
     background-image: url('img/skills.svg');
-    background-size: 10cm auto;
+    background-size: 65% auto;
     background-repeat: no-repeat;
     background-position: top left;
     position: absolute;
     width: 100%;
-    height: 6cm;
+    height: 100%;
  }
 
 .interests-cloud {
     background-image: url('img/interests.svg');
-    background-size: 5.5cm auto;
+    background-size: 35% auto;
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
     width: 100%;
-    height: 6cm;
+    height: 100%;
+ }
+
+.languages-cloud {
+    background-image: url('img/languages.svg');
+    background-size: 25% auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    right: 40pt;
+    position: absolute;
+    width: 100%;
+    height: 100%;
  }
 
 .left-column span {
