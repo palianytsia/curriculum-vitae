@@ -48,6 +48,32 @@ body {
     vertical-align: top;
 }
 
+.clouds {
+    position: relative;
+    width: 100%;
+    height: 6cm;
+}
+
+.skills-cloud {
+    background-image: url('img/skills.svg');
+    background-size: 10cm auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    width: 100%;
+    height: 6cm;
+ }
+
+.interests-cloud {
+    background-image: url('img/interests.svg');
+    background-size: 5.5cm auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    width: 100%;
+    height: 6cm;
+ }
+
 .left-column span {
     margin-right: 12pt;
 }
