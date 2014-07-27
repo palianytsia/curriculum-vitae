@@ -1,6 +1,8 @@
 html * {
     font-family: "Exo 2.0";
     font-size:  9pt;
+    margin: 0;
+    padding: 0;
 }
 
 h1,h2,h3,h4 {
@@ -8,9 +10,8 @@ h1,h2,h3,h4 {
     font-weight: normal;  
 }
 
-body {
-    margin: 0;
-    padding: 0;
+strong {
+    font-family: "Exo 2.0 Light";
 }
 
 .page {
@@ -23,18 +24,16 @@ body {
 
 @media print {
     .page {
-        margin: 0;
         border: none;
         width: 100%;
         height: 100%;
-        padding: 0cm;
+        margin: 0;
+        padding: 0;
     }
 }
 
 .content {
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .left-column {
@@ -44,53 +43,14 @@ body {
     font-size:  12pt;
     text-transform: uppercase;
     color: #dd504d;
-    padding: 0;
     vertical-align: top;
 }
-
-.clouds {
-    position: relative;
-    width: 100%;
-    height: 5.5cm;
-}
-
-.skills-cloud {
-    background-image: url('img/skills.svg');
-    background-size: 65% auto;
-    background-repeat: no-repeat;
-    background-position: top left;
-    position: absolute;
-    width: 100%;
-    height: 100%;
- }
-
-.interests-cloud {
-    background-image: url('img/interests.svg');
-    background-size: 35% auto;
-    background-repeat: no-repeat;
-    background-position: top right;
-    position: absolute;
-    width: 100%;
-    height: 100%;
- }
-
-.languages-cloud {
-    background-image: url('img/languages.svg');
-    background-size: 25% auto;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    right: 40pt;
-    position: absolute;
-    width: 100%;
-    height: 100%;
- }
 
 .left-column span {
     margin-right: 12pt;
 }
 
 .right-column {
-    padding: 0;
     vertical-align: top;
 }
 
@@ -103,7 +63,6 @@ body {
     color:  #58595b;
     border-style: dashed;
     border-width: 1pt 0 0 0;
-    
 }
 
 .highlighted {
@@ -112,7 +71,7 @@ body {
 
 #contact div {
     padding-left: 16pt;
-    background-size: auto 12pt;
+    background-size: 12pt auto;
     background-repeat: no-repeat;
     line-height: 12pt;
     height: 12pt;
@@ -121,15 +80,15 @@ body {
 }
 
 #mail {
-    background-image: url('img/arroba4.svg');
+    background-image: url('img/email.svg');
 }
 
 #location {
-    background-image: url('img/pins9.svg');
+    background-image: url('img/location.svg');
 }
 
 #phone {
-    background-image: url('img/phone64.svg');
+    background-image: url('img/phone.png');
 }
 
 #photo {
@@ -142,14 +101,21 @@ body {
 
 #name {
     margin: 12pt 0 0 0;
-    padding: 0;
     font-size: 28pt;
 }
 
 #title {
-    margin: 0 0 12pt 0;
-    padding: 0;
+    margin: 6pt 0 2pt 0;
     font-size: 12pt;
+}
+
+.summary {
+    margin: 0pt 0 12pt 0;
+    list-style-type: none;
+}
+
+.summary li {
+    margin-bottom: 6pt;
 }
 
 #numbers td {
@@ -184,7 +150,7 @@ body {
     color: #dd504d;
 }
 
-.right-column .description, .tags {
+.right-column .description, .tags, #thesis p {
     margin: 2pt 0 2pt 0;
 }
 
@@ -193,7 +159,7 @@ body {
     background-size: 12pt 12pt;
     background-repeat: no-repeat;
     line-height: 12pt;
-    background-image: url('img/label14.svg');
+    background-image: url('img/tags.svg');
 }
 
 .tags li {
@@ -204,4 +170,69 @@ body {
 .tags li::after
 { 
     content:";";
+}
+
+#thesis {
+    margin: 4pt 0 4pt 0;
+    padding-left: 16pt;
+    background-image: url('img/bonet.svg');
+    background-size: 12pt auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#thesis strong {
+    font-family:  "Exo 2.0 Semi Bold";
+    font-weight: normal;
+}
+
+.language {
+    display: inline-block;
+    margin-right: 24pt;
+    text-indent: 2pt;
+    font-size: 12pt;
+}
+
+.listing {
+    list-style-type: none;
+    line-height: 14pt;
+}
+
+.listing * {
+    font-size: 10pt;
+}
+
+.circle { 
+	height: 6pt;  
+    width: 6pt;
+	border-radius: 50%;
+    border: 1pt solid #dd504d;
+    display: inline-block;
+    margin: 4pt 1pt 0pt 1pt;
+}
+
+.circle.filled {
+    background-color: #dd504d;
+}
+
+.qr {
+    display: inline-block;
+    text-align: center;
+    width:  32%;
+    height: 4.4cm;
+    background-size: 4cm 4cm;
+    background-position: bottom center;
+    background-repeat: no-repeat; 
+}
+
+#motto {
+    background-image: url('img/motto.svg');
+}
+
+#linkedin {
+    background-image: url('img/linkedin.svg');
+}
+
+#github {
+    background-image: url('img/github.svg');
 }
