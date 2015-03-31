@@ -69,6 +69,14 @@ strong {
     color: #dd504d;
 }
 
+.blankline {
+    height:  9pt;
+}
+
+.clr {
+    clear: both;
+}
+
 #contact div {
     padding-left: 16pt;
     background-size: 12pt auto;
@@ -219,14 +227,10 @@ strong {
     display: inline-block;
     text-align: center;
     width:  32%;
-    height: 4.4cm;
-    background-size: 4cm 4cm;
+    height: 4cm;
+    background-size: 3cm 3cm;
     background-position: bottom center;
     background-repeat: no-repeat; 
-}
-
-#motto {
-    background-image: url('img/motto.svg');
 }
 
 #linkedin {
@@ -235,4 +239,8 @@ strong {
 
 #github {
     background-image: url('img/github.svg');
+}
+
+#coursera {
+    background-image: url('img/coursera.svg');
 }
