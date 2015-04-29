@@ -1,17 +1,19 @@
 html * {
-    font-family: "Exo 2.0";
+    font-family: Calibri;
+    font-weight: normal;
     font-size:  9pt;
     margin: 0;
     padding: 0;
 }
 
 h1,h2,h3,h4 {
-    font-family: "Exo 2.0 Light";
-    font-weight: normal;  
+    font-family: Calibri;
+    font-weight: lighter;  
 }
 
 strong {
-    font-family: "Exo 2.0 Light";
+    font-family: Calibri;
+    font-weight: lighter;
 }
 
 .page {
@@ -20,6 +22,7 @@ strong {
     height: 29.7cm;
     width: 21cm;
     padding: 2cm;
+    overflow: hidden;
 }
 
 @media print {
@@ -39,7 +42,8 @@ strong {
 .left-column {
     width: 25%;
     line-height: 0.7cm;
-    font-family: "Exo 2.0 Light";
+    font-family: Calibri;
+    font-weight: lighter;
     font-size:  12pt;
     text-transform: uppercase;
     color: #dd504d;
@@ -147,19 +151,25 @@ strong {
 }
 
 .right-column .title {
-    font-family: "Exo 2.0 Medium";
+    font-family: Calibri;
+    font-weight: bold;
     font-size: 10pt;
 }
 
 .right-column .period {
-    font-family:  "Exo 2.0 Light";
+    font-family: Calibri;
+    font-weight: lighter;
     font-size: 10pt;
     float: right;
     color: #dd504d;
 }
 
-.right-column .description, .tags, #thesis p {
-    margin: 2pt 0 2pt 0;
+.description, .tags, #thesis p {
+    margin: 0.25em 0 0.25em 0;
+}
+
+.achievements {
+    padding-left: 2em;
 }
 
 .tags {
@@ -190,8 +200,8 @@ strong {
 }
 
 #thesis strong {
-    font-family:  "Exo 2.0 Semi Bold";
-    font-weight: normal;
+    font-family: Calibri;
+    font-weight: bold;
 }
 
 .language {
