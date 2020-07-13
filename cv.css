@@ -1,19 +1,21 @@
 html * {
-    font-family: Calibri;
-    font-weight: normal;
-    font-size:  9pt;
+    font-family: Calibri, serif;
+    font-size:  10pt;
+    line-height: 1.4;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
 h1,h2,h3,h4 {
-    font-family: Calibri;
+    font-family: inherit;
     font-weight: lighter;
+    font-stretch: expanded;
 }
 
-strong {
-    font-family: Calibri;
-    font-weight: lighter;
+a {
+    color: #4183C4;
+    text-decoration: none;
 }
 
 .page {
@@ -40,18 +42,19 @@ strong {
 }
 
 .left-column {
-    width: 25%;
+    width: 24%;
     line-height: 0.7cm;
-    font-family: Calibri;
+    font-family: inherit;
     font-weight: lighter;
-    font-size:  12pt;
+    font-size: 14pt;
     text-transform: uppercase;
     color: #dd504d;
     vertical-align: top;
 }
 
 .left-column span {
-    margin-right: 12pt;
+    margin-right: 8pt;
+    font-size:  14pt;
 }
 
 .right-column {
@@ -113,11 +116,11 @@ strong {
 
 #name {
     margin: 12pt 0 0 0;
-    font-size: 28pt;
+    font-size: 24pt;
 }
 
 #title {
-    margin: 6pt 0 2pt 0;
+    margin: 0 0 6pt 0;
     font-size: 12pt;
 }
 
@@ -130,64 +133,30 @@ strong {
     margin-bottom: 6pt;
 }
 
-#numbers td {
-    padding:  0 3pt 0 3pt;
-    text-align: center;
-    font-size: 10pt;
-    color: #58595b;
-    width: 25%;
-}
-
-.number {
-    border: 2pt solid #000;
-    border-radius: 50%;
-    color: #000;
-    height: 1.8cm;
-    width: 1.8cm;
-    text-align: center;
-    line-height: 1.8cm;
-    font-size: 18pt;
-    margin: 0 auto 5pt auto;
-}
-
 .right-column .title {
-    font-family: Calibri;
+    font-family: inherit;
     font-weight: bold;
-    font-size: 10pt;
+    font-stretch: ultra-expanded;
+    font-size: 11pt;
+}
+
+.right-column .subtitle {
+    color: #666;
 }
 
 .right-column .period {
-    font-family: Calibri;
+    font-family: inherit;
     font-weight: lighter;
-    font-size: 10pt;
     float: right;
     color: #dd504d;
 }
 
-.description, .tags, #thesis p {
+.description, #thesis p {
     margin: 0.25em 0 0.25em 0;
 }
 
 .achievements {
     padding-left: 2em;
-}
-
-.tags {
-    padding: 0 0 0 14pt;
-    background-size: 12pt 12pt;
-    background-repeat: no-repeat;
-    line-height: 12pt;
-    background-image: url('img/beans.svg');
-}
-
-.tags li {
-     display: inline-block;
-     margin-left: 4pt;
-}
-
-.tags li::after
-{
-    content:";";
 }
 
 #thesis {
@@ -197,11 +166,6 @@ strong {
     background-size: 12pt auto;
     background-position: top left;
     background-repeat: no-repeat;
-}
-
-#thesis strong {
-    font-family: Calibri;
-    font-weight: bold;
 }
 
 .language {
@@ -216,10 +180,6 @@ strong {
     line-height: 14pt;
 }
 
-.listing * {
-    font-size: 10pt;
-}
-
 .circle { 
 	height: 6pt;  
     width: 6pt;
@@ -231,14 +191,4 @@ strong {
 
 .circle.filled {
     background-color: #dd504d;
-}
-
-.qr {
-    display: inline-block;
-    text-align: center;
-    width:  32%;
-    height: 4cm;
-    background-size: 3cm 3cm;
-    background-position: bottom center;
-    background-repeat: no-repeat; 
 }

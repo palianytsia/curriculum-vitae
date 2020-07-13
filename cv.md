@@ -86,7 +86,7 @@ search results.
 
 #### Bachelor, Computer Science • Sep 2005 - Jun 2009
 
-### Certifications	
+### Certification
 - Architecture Curriculum • SAP • Jul 2020
 - Conflict management • Thiel & Partner • Jan 2015
 - Algorithms: Design and Analysis, Part 2 • Coursera • Jan 2013
