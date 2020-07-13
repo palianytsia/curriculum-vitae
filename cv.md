@@ -95,11 +95,9 @@ search results.
 
 ## Languages
 
-:full_moon: Ukrainian, Russian
-
-:waning_gibbous_moon: English
-
-:last_quarter_moon: German
+| Ukrainian | Russian | English | German |
+| --------- | ------- | ------- | ------ |
+| :black_circle: :black_circle: :black_circle: :black_circle: | :black_circle: :black_circle: :black_circle: :black_circle: | :black_circle: :black_circle: :black_circle: :white_circle: | :black_circle: :black_circle: :white_circle: :white_circle: |
 
 ## Interests	
 - Artificial intelligence, Cryptography
